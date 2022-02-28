@@ -19,6 +19,9 @@
 
         timer.textContent = `${m}:${s}.${ms}`;
 
-        timeoutid = setTimeout()
+        timeoutid = setTimeout(() => {
+
+            countUp();
+        }, 10);
     }
 }
